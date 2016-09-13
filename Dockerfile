@@ -1,3 +1,3 @@
 FROM nginx
-RUN apt-get update
-RUN apt-get install vim
+RUN apt-get -y update
+RUN apt-get -y install vim
